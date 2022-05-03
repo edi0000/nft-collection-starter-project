@@ -123,3 +123,40 @@
     background-position: 0% 50%;
   }
 }
+
+.loading-icon {
+  box-sizing: border-box;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  box-shadow:
+    0 -10px 0 #eee,     /*  上  */
+    7px -7px 0 #ddd,  /* 右上 */
+    10px 0 0 #ccc,      /*  右  */
+    7px 7px 0 #bbb,   /* 右下 */
+    0 10px 0 #aaa,      /*  下  */
+    -7px 7px 0 #999,  /* 左下 */
+    -10px 0 0 #666,     /*  左  */
+    -7px -7px 0 #000; /* 左上 */
+  animation: rotate 1s steps(8) 0s infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.button {
+  display: inline-block;
+  height: 30px;
+  width: 250px;
+  color: #333;
+  padding: 3px;
+  border: 1px solid #ccc;
+  background-color: #f2F2f2;
+  text-decoration: none;
+}
