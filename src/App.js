@@ -10,7 +10,7 @@ const TWITTER_HANDLE = 'edi_0000';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const OPENSEA_LINK = '';
 const TOTAL_MINT_COUNT = 50;
-const CONTRACT_ADDRESS = "0x3C073eAeD053089A62DB7d00118D41c5B7755e23";
+const CONTRACT_ADDRESS = "0x6345FC9891cEdd5A25285E8Afe26dB35F62eeB12";
 const RARIBLE_URL_ADDRESS = `https://rinkeby.rarible.com/collection/${CONTRACT_ADDRESS}/items`;
 
 const App = () => {
